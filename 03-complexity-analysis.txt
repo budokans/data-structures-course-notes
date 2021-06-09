@@ -1,0 +1,11 @@
+What is complexity in computer science?
+
+Complexity is the concept of how much time an operation takes to execute and how much space in memory an operation needs to accomplish its task.
+
+Both are measured in Big O notation.
+
+Data structures are strongly linked to the complexity of algorithms, because different types of data structures have different time and space complexity ramifications for the operations they support.
+
+A well-designed, highly-performant algorithm utilises the best known data structures and operation types to achieve its goal, with the lowest space time complexity possible.
+
+Note: depending on use case, a lower time complexity or lower space complexity may be preferred.

@@ -1,0 +1,9 @@
+1. What actually is coding?
+
+Coding is simply manipulating data to achieve some purpose. If you're coding on the frontend of a web application, you're retrieving data from and posting data and changes to an API, manipulating the data to get it in a human readable format, and then displaying it on a screen.
+
+If you're building an API, you're mostly retrieving data from a server, processing it and sending it to a client that requests it.
+
+2. What are data structures?
+
+Data structures are collections of data, the relationships between those data, and the operations that can be used on them.
