@@ -1,0 +1,38 @@
+// Bits
+
+Bits (or binary digits) are fundamental units of information in Computer Science that represent a state with one of two values - typically 0 or 1.
+
+Any data stored in a computer is represented in bits, at the most basic level.
+
+// Bytes
+
+A byte is a group of eight bits - e.g. 01100101 - and can stored up to 256 data values (2^8).
+
+Since a binary number is expressed with only two symbols, e.g. 0 and 1, a byte can represent all of the numbers between 0 and 255, inclusive, in binary format.
+
+00000001 // 1
+00000010 // 2
+00000011 // 3
+00000100 // 4
+
+// Fixed-Width Integers
+
+An integer is represented by a fixed number of bits. A 32-bit integer is represented by 32 bits (or 4 bytes) and a 64-bit integer (like in JavaScript) is represented by 64 bits / 8 bytes.
+
+00000000 00000000 00000000 00000001 (32-bit representation of the number 1)
+
+Regardless of how large an integer is, the amount of bits used to represent it is a constant number.
+
+It follows then, that no matter how large an integer is, an operation performed on its fixed-width-integer representation performs consists of a constant number of bit manipulations, since the number is made up of a fixed number of bits.
+
+// Memory
+
+Memory is the foundational layer of computing, where all data is stored.
+
+Data stored in memory is stored in bytes (and by extension, bits)
+
+Bytes in memory can 'point' at other bytes in memory, so as to store references to data.
+
+The amount of memory that a machine has is bounded, meaning that it is limited and therefore the amount of memory required by algorithms should be limited.
+
+Accessing a byte or a fixed number of bytes is an elementary operation that should be loosely treated as a single unit of operational work.
